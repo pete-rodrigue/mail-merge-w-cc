@@ -76,6 +76,11 @@ Now, on this page:
 
 Click "New step." From here, we're going to add steps to send our emails. See the Power Automate flow in this repo for details, called "SendbulkemailswithCClinesandattachments_20230811153422.zip." You can import that zip file as a flow into Power Automate. You can hover over each action/item to see where the data element is being pulled from. You may need to edit a few of those items/data elements.
 
+The overall flow looks like this:
+
+![image](https://github.com/pete-rodrigue/mail-merge-w-cc/assets/8962291/028fab79-6ea8-4b45-9f1e-1a611fd0f66e)
+
+
 If the flow works, you should be able to get emails like this:
 
 ![image](https://github.com/pete-rodrigue/mail-merge-w-cc/assets/8962291/3a3e88e5-5bc7-405a-bdf5-f5d87bfd7d13)
