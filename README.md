@@ -66,7 +66,7 @@ First, you'll want to create a folder that has any attachments you want to send 
 
 ![image](https://github.com/pete-rodrigue/mail-merge-w-cc/assets/8962291/02d9a359-5834-4555-943f-d263bb2abeba)
 
-
+See the folder in this repo called "send bulk emails w power automate". That has a template of the excel file you'll need and a dummy PDF file. Note that you'll need to make sure that the "settings" and "contacts" rows/cells in the excel workbook need to be saved as tables with specific names.
 
 Then go to Power Automate and click "create instant cloud flow." Click "manually trigger a cloud flow." 
 
@@ -74,7 +74,7 @@ Now, on this page:
 
 ![image](https://github.com/pete-rodrigue/mail-merge-w-cc/assets/8962291/d9a553b2-ecae-46a0-a9ef-a905721f34ef)
 
-Click "New step." From here, we're going to add steps to send our emails. See the Power Automate flow in this repo for details. You can hover over each action/item to see where the data element is being pulled from.
+Click "New step." From here, we're going to add steps to send our emails. See the Power Automate flow in this repo for details, called "SendbulkemailswithCClinesandattachments_20230811153422.zip." You can import that zip file as a flow into Power Automate. You can hover over each action/item to see where the data element is being pulled from. You may need to edit a few of those items/data elements.
 
 If the flow works, you should be able to get emails like this:
 
