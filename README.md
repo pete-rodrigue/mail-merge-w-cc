@@ -4,7 +4,9 @@ This small repo shows a couple ways to send mail merge emails with CC lines, att
 
 ## Excel macro & a simple excel sheet.
 
-The first way to do this is with an excel sheet and a simple macro. Please see the file in this repo called "send test emails.xslm." You basically fill out that excel sheet with the information you need (who the emails are going to, any CC and BCC lines, the message, etc). Then hit ALT+F11 to open the macro editor, and run the macro to send the emails. Here's what the sheet should look like, roughly:
+The first way to do this is with an excel sheet and a simple macro. Thanks to youtube user "Automate Data" for providing a thourogh walkthrough about how to do this. Here's a link to their channel: https://www.youtube.com/watch?v=2eHxTRisCVM 
+
+Please see the file in this repo called "send test emails.xslm." You basically fill out that excel sheet with the information you need (who the emails are going to, any CC and BCC lines, the message, etc). Then hit ALT+F11 to open the macro editor, and run the macro to send the emails. Here's what the sheet should look like, roughly:
 
 ![image](https://github.com/pete-rodrigue/mail-merge-w-cc/assets/8962291/a508295e-bc3b-4d6d-bf02-6e116da5bedb)
 
