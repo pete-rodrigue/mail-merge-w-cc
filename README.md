@@ -1,11 +1,16 @@
 # mail-merge-w-cc
-This small repo shows a couple ways to send mail merge emails with CC lines.
+This small repo shows a couple ways to send mail merge emails with CC lines, attachments, and other fancy little bits.
 
 
 ## Excel macro & a simple excel sheet.
 
-The first way to do this is with an excel sheet and a simple macro. Please see the file in this repo called "send test emails.xslm."
+The first way to do this is with an excel sheet and a simple macro. Please see the file in this repo called "send test emails.xslm." You basically fill out that excel sheet with the information you need (who the emails are going to, any CC and BCC lines, the message, etc). Then hit ALT+F11 to open the macro editor, and run the macro to send the emails. Here's what the sheet should look like, roughly:
 
+![image](https://github.com/pete-rodrigue/mail-merge-w-cc/assets/8962291/a508295e-bc3b-4d6d-bf02-6e116da5bedb)
+
+
+
+And here is what the script should look like:
 
 ```
 ' This is a short script that allows you to send emails in bulk to multiple recipents, with people CC'd and/or BCC'd.
@@ -42,3 +47,15 @@ Sub Send_Bulk_Email()
     
 End Sub
 ```
+
+
+There are some disadvantages to doing things this way:
+
+* You can't send people attachments.
+* You can't easily send people HTML emails with pictures, etc.
+
+But we can use Power Automate to accomplish those fancier things in mail merge. See next section.
+
+## Sending bulk emails with CC lines, etc, using Power Automate
+
+
