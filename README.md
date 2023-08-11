@@ -60,4 +60,22 @@ But we can use Power Automate to accomplish those fancier things in mail merge. 
 
 ## Sending bulk emails with CC lines, etc, using Power Automate
 
+Thanks to youtube user "Efficiency 365 by Dr Nitin" for providing a thorough walkthrough on this. Their video is here: https://www.youtube.com/watch?v=Ij6RRDkipRI
 
+First, you'll want to create a folder that has any attachments you want to send in it, along with an excel file called "contacts":
+
+![image](https://github.com/pete-rodrigue/mail-merge-w-cc/assets/8962291/02d9a359-5834-4555-943f-d263bb2abeba)
+
+
+
+Then go to Power Automate and click "create instant cloud flow." Click "manually trigger a cloud flow." 
+
+Now, on this page:
+
+![image](https://github.com/pete-rodrigue/mail-merge-w-cc/assets/8962291/d9a553b2-ecae-46a0-a9ef-a905721f34ef)
+
+Click "New step." From here, we're going to add steps to send our emails. See the Power Automate flow in this repo for details. You can hover over each action/item to see where the data element is being pulled from.
+
+If the flow works, you should be able to get emails like this:
+
+![image](https://github.com/pete-rodrigue/mail-merge-w-cc/assets/8962291/3a3e88e5-5bc7-405a-bdf5-f5d87bfd7d13)
